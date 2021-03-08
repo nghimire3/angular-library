@@ -11,6 +11,16 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+    "paths": {
+      "members": [
+        "dist/members/members",
+        "dist/members"
+      ],
+      "product": [
+        "dist/product/product",
+        "dist/product"
+      ]
+    },
     "module": "es2020",
     "lib": [
       "es2018",
