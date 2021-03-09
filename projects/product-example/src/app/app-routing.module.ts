@@ -6,7 +6,7 @@ const routes: Routes = [
   {path: '', component: HomeComponent},
   {
     path: 'products',
-    loadChildren: () => import('../../../product/src/lib/product-routing.module').then(m => m.ProductRoutingModule)
+    loadChildren: () => import('./lazy/lazy-product.module').then(m => m.LazyProductModule)
   },
   {
     path: 'members',
