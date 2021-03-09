@@ -1,20 +1,23 @@
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr 50px;
+  grid-template-rows: 75px 1fr 25px;
+  border: solid 1px red;
+  height: 100%;
 }
-
 
 .header {
-}
 
+  border: solid 1px red;
+}
 
 .content {
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
 
-.footer {
   grid-row-start: 2;
   grid-row-end: 3;
+  border: solid 1px red;
+}
+.footer {
+
+  border: solid 1px red;
 }
